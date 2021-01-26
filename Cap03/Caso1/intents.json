@@ -1,0 +1,27 @@
+{"intents": [
+    {"tag": "saudacoes",
+     "patterns": ["Olá", "Bom dia", "Boa tarde", "Boa noite"],
+     "responses": ["Como vai?", "Olá", "Bom dia"]
+    },
+    {"tag": "adeus",
+     "patterns": ["Tchau", "Adeus", "Bye", "Até mais", "Até a próxima"],
+     "responses": ["Tchau!", "Tenha um bom dia", "Adeus", "Até mais", "Até a próxima"]
+    },
+    {"tag": "obrigado",
+     "patterns": ["Obrigado por tudo", "Obrigado", "Obrigado pela ajuda"],
+     "responses": ["De nada!", "Estou aqui para o que precisar", "Estou aqui para ajudar", "Encantada!"]
+    },
+    {"tag": "sobre",
+     "patterns": ["Quem é você", "Quem é?"],
+     "responses": ["Sou Joana, a Assistente Virtual baseada em IA", "Sou Joana, um bot de Inteligência Artificial"]
+    },
+    {"tag": "nome",
+    "patterns": ["Qual seu nome?", "Como devo chamar você?", "Como se chama?"],
+    "responses": ["Pode me chamar de Joana", "Sou a Joana", "Me chamo Joana"]
+    },
+    {"tag": "ajuda",
+    "patterns": ["Pode me ajudar?", "Pode me dar uma ajuda?", "O que pode fazer por mim?", "Preciso de ajuda", "Me ajude por favor"],
+    "responses": ["Diga-me como posso te ajudar", "Qual o seu problema?", "Claro, como posso te ajudar?"]
+    }
+]
+}
